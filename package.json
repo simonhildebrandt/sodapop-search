@@ -1,8 +1,15 @@
 {
-  "name": "sodapop-search",
+  "name": "@apocryphilia/sodapop-search",
   "version": "1.0.0",
   "main": "lib/eleventy-index.mjs",
-  "repository": "git@github.com:simonhildebrandt/sodapop-search.git",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:simonhildebrandt/sodapop-search.git"
+  },
+  "files": [
+    "lib"
+  ],
   "author": "Simon Hildebrandt <simonhildebrandt@gmail.com>",
   "license": "MIT",
   "dependencies": {
