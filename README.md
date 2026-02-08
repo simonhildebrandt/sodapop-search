@@ -6,7 +6,7 @@ A lightweight search plugin for Eleventy, built with Lunr and React.
 
 Sodapop Search was originally built for an [Eleventy](https://www.11ty.dev/) [Refresher], but has now been extracted as a standalone package - hopefully others will find it useful.
 
-(The examples below are drawn from the [Refresher] codebase - you can see that source code [here](https://github.com/simonhildebrandt/refresher).)
+(The examples below are drawn from the [Refresher](https://github.com/simonhildebrandt/refresher) codebase - you can see that source code [here](https://github.com/simonhildebrandt/refresher).)
 
 ## Installing the search component
 
@@ -48,4 +48,4 @@ When Eleventy renders your site, the [indexing code](https://github.com/simonhil
 
 ## Development
 
-So far this machinery is very targeted to [Refresher]'s usecase, and isn't customisable at all. Any suggestions for ways to adapt it to make it more broadly useful are welcome.
+So far this machinery is very targeted to [Refresher](https://github.com/simonhildebrandt/refresher)'s usecase, and isn't customisable at all. Any suggestions for ways to adapt it to make it more broadly useful are welcome.
