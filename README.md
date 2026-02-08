@@ -30,7 +30,7 @@ The main component is built with React, and can easily be added into your Eleven
 
 Next, add a 'search-root' component ([like this](https://github.com/simonhildebrandt/refresher/blob/main/includes/raw.liquid#L32C7-L32C35)) for the React component to mount on to.
 
-Then, just dispatch a 'sodapop-search' custom event ([like this](https://github.com/simonhildebrandt/refresher/blob/main/includes/raw.liquid#L20)) and the component will become visible.
+Then, just dispatch a 'sodapop-search' custom event ([like this](https://github.com/simonhildebrandt/refresher/blob/main/includes/raw.liquid#L20)) and the component will become visible. (The `sodapop-search-trigger` class on the triggering element allows the component to avoid triggering the 'click outside' behaviour instantly.)
 
 ## Installing the search corpus
 
